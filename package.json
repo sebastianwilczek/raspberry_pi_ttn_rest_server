@@ -2,9 +2,10 @@
   "name": "raspberry_pi_ttn_rest_server",
   "version": "1.0.0",
   "description": "Raspberry Pi REST Server to retrieve information previously stored from The Thing Network",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
