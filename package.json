@@ -1,0 +1,22 @@
+{
+  "name": "raspberry_pi_ttn_rest_server",
+  "version": "1.0.0",
+  "description": "Raspberry Pi REST Server to retrieve information previously stored from The Thing Network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianwilczek/raspberry_pi_ttn_rest_server.git"
+  },
+  "author": "Sebastian Wilczek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianwilczek/raspberry_pi_ttn_rest_server/issues"
+  },
+  "homepage": "https://github.com/sebastianwilczek/raspberry_pi_ttn_rest_server#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
