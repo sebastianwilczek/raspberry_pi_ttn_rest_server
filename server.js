@@ -19,7 +19,9 @@ app.get('/devices', function (req, res) {
 
       var resultArray = [];
       result.forEach(function(entry) {
-        resultArray.indexOf(entry.device_id) === -1 ? resultArray.push(entry.device_id) : console.log("Duplicate of Device ID found, discarding");
+        if(resultArray.indexOf(entry.device_id) === -1){
+          resultArray.push(entry.device_id);
+        }
       });
 
       console.log("Result:");
